@@ -443,3 +443,23 @@ section[style*="background-image"] {
     height: auto;
     display: block;
 }
+/* Existing styles for nav-buttons */
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+/* Add space between all buttons in nav-buttons */
+.nav-buttons > * {
+    margin-right: 20px; /* Adjust this value to increase or decrease the space */
+}
+
+/* Remove margin from the last element (toggle button) */
+.nav-buttons > *:last-child {
+    margin-right: 0;
+}
+
+/* Optional: If you want different spacing for the toggle button */
+#theme-toggle {
+    margin-left: 30px; /* This will give extra space before the toggle button */
+}
