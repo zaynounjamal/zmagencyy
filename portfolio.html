@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio - ZM-Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu <i class="fas fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="team.html">Our Team</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="careers.html">Careers</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="signin.html">Signin</a>
+                    <a href="signup.html">Signup</a>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="images/logo1.png" alt="ZM-Agency Logo">
+            </div>
+            <div class="nav-buttons">
+                <a href="signin.html" class="btn btn-secondary">Sign In</a>
+                <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                <button id="theme-toggle" class="btn btn-icon"><i class="fas fa-adjust"></i></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="page-hero">
+            <h1>Our Portfolio</h1>
+            <p>Showcasing our best work and client success stories</p>
+        </section>
+
+        <section class="section portfolio-filter">
+            <h2>Filter Projects</h2>
+            <div class="filter-buttons">
+                <button class="btn btn-secondary active" data-filter="all">All</button>
+                <button class="btn btn-secondary" data-filter="web">Web Development</button>
+                <button class="btn btn-secondary" data-filter="marketing">Digital Marketing</button>
+                <button class="btn btn-secondary" data-filter="design">Graphic Design</button>
+                <button class="btn btn-secondary" data-filter="app">Mobile Apps</button>
+            </div>
+        </section>
+
+        <section class="section portfolio-grid">
+            <div class="grid grid-3">
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/image3.jpg" alt="E-commerce Website">
+                    <div class="portfolio-item-overlay">
+                        <h3>E-commerce Website</h3>
+                        <p>Custom online store for a fashion brand</p>
+                        <a href="#" class="btn btn-primary">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="marketing">
+                    <img src="images/image3.jpg" alt="SEO Campaign">
+                    <div class="portfolio-item-overlay">
+                        <h3>SEO Campaign</h3>
+                        <p>Increased organic traffic by 200% for a local business</p>
+                        <a href="#" class="btn btn-primary">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="images/image3.jpg" alt="Brand Identity">
+                    <div class="portfolio-item-overlay">
+                        <h3>Brand Identity</h3>
+                        <p>Complete rebranding for a tech startup</p>
+                        <a href="#" class="btn btn-primary">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="images/image3.jpg" alt="Fitness App">
+                    <div class="portfolio-item-overlay">
+                        <h3>Fitness App</h3>
+                        <p>iOS and Android app for workout tracking</p>
+                        <a href="#" class="btn btn-primary">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/image3.jpg" alt="Corporate Website">
+                    <div class="portfolio-item-overlay">
+                        <h3>Corporate Website</h3>
+                        <p>Modern website for a financial services company</p>
+                        <a href="#" class="btn btn-primary">View Case Study</a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="marketing">
+                    <img src="images/image3.jpg" alt="Social Media Campaign">
+                    <div class="portfolio-item-overlay">
+                        <h3>Social Media Campaign</h3>
+                        <p>Viral campaign that increased engagement by 500%</p>
+                        <a href="#" class="btn btn-primary">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's bring your vision to life!</p>
+            <a href="contact.html" class="btn btn-cta">Get Started</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html#web-development">Web Development</a></li>
+                    <li><a href="services.html#digital-marketing">Digital Marketing</a></li>
+                    <li><a href="services.html#graphic-design">Graphic Design</a></li>
+                    <li><a href="services.html#mobile-app-development">Mobile App Development</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latest news and offers!</p>
+                <form class="newsletter-form" action="subscribe.php" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 ZM-Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

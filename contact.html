@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ZM-Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu <i class="fas fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="team.html">Our Team</a>
+                    <a href="testimonials.html">Testimonials</a>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="careers.html">Careers</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="signin.html">Signin</a>
+                    <a href="signup.html">Signup</a>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="images/logo1.png" alt="ZM-Agency Logo">
+            </div>
+            <div class="nav-buttons">
+                <a href="signin.html" class="btn btn-secondary">Sign In</a>
+                <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                <button id="theme-toggle" class="btn btn-icon"><i class="fas fa-adjust"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team of experts</p>
+        </section>
+
+        <section class="section contact-info">
+            <div class="grid grid-3">
+                <div class="card">
+                    <div class="card-content">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Our Location</h3>
+                        <p>123 Digital Avenue<br>Tech City, TC 12345<br>United States</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                        <p>Mon-Fri: 9am - 6pm</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@zm-agency.com</p>
+                        <p>support@zm-agency.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit-form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+
+        <section class="section map">
+            <h2>Find Us on the Map</h2>
+            <div id="map">
+                <!-- Add your map embed code here -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2141961621378!2d-73.98823668459377!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1619614977254!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html#web-development">Web Development</a></li>
+                    <li><a href="services.html#digital-marketing">Digital Marketing</a></li>
+                    <li><a href="services.html#graphic-design">Graphic Design</a></li>
+                    <li><a href="services.html#mobile-app-development">Mobile App Development</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latest news and offers!</p>
+                <form class="newsletter-form" action="subscribe.php" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 ZM-Agency. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
